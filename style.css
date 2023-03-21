@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#game-container {
+    width: 240px;
+    margin: 0 auto;
+}
+
+#game-board {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 480px;
+    background-color: #EEE;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #999;*/
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#start-button {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.block {    
+    width: 10%;
+    height: 5%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.block.tetromino {
+    border: 1px solid black;
+}
+
+.block.I {
+    background-color: cyan;
+}
+
+.block.O {
+    background-color: yellow;
+}
+
+.block.T {
+    background-color: purple;
+}
+
+.block.S {
+    background-color: green;
+}
+
+.block.Z {
+    background-color: red;
+}
+
+.block.J {
+    background-color: blue;
+}
+
+.block.L {
+    background-color: orange;
+}
